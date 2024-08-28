@@ -1,0 +1,53 @@
+---
+title: "DATA 3101: Data Acquisition and Organization"
+subtitle: "Introduction"
+author: "Elizabeth Stregger"
+date: "2024-09-06"
+output: github_document
+---
+
+## Learning objectives
+
+At the end of the course, students are expected to be able to:
+
+-   Demonstrate in depth understanding of the principles, motivations and goals for reproducible, ethical, and open data
+
+-   Use Git for communication and reproducible version control
+
+-   Import and tidy diverse data sources across platforms
+
+-   Explore data to identify potential research questions or problems in the dataset
+
+-   Identify best practices for research data management, including data organization, storage, security, sharing, and ethical re-use
+
+-   Demonstrate what they have learned about data acquisition, data organization, and data tools through self-reflection
+
+## Research Data
+
+![Scholarly Research and Data Management Cycle](../Graphics/ResearchLifecycle_CondonBresnahanOpuda_2022.jpg)
+
+## Tools: Git & RStudio
+
+-   One of the themes throughout this course is the importance of reproducibility and open data
+-   RStudio: import, tidy, analyze, and communicate data using a reproducible workflow
+-   RStudio can be linked with Git for version control
+-   Many of the good practices in research data management can be demonstrated using these tools (importance of file naming, file structures, documentation, version control)
+
+## Practice and Learning
+
+## CEWIL Project
+
+- CEWIL = Co-operative Education and Work-Integrated Learning
+- We will be working on a data project to support Open Access publications 
+- We will acquire the data through webscraping and transform it to meet the requirements of the Open Journal Systems' import plugin
+- We will use both R and Artificial Intelligence text analysis approaches
+- You will have access to ChatGPT Team (data analysis, file uploads, web browsing) supported through the CEWIL grant
+- You will receive a stipend
+
+## Ungrading
+
+
+## To Do List
+
+- Fill out the student information survey now
+- Read the syllabus
