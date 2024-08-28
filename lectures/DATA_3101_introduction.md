@@ -27,18 +27,21 @@ At the end of the course, students are expected to be able to:
 
 <figure>
 <img src="../images/research_process_condon_2022.jpg"
-alt="Scholarly Research and Data Management Cycle" />
-<figcaption aria-hidden="true">Scholarly Research and Data Management
-Cycle</figcaption>
+alt="(Condon et al., 2022)" />
+<figcaption aria-hidden="true">(Condon et al., 2022)</figcaption>
 </figure>
 
 ## Data Science
 
 <figure>
 <img src="../images/data_science_schematic_wickham.png"
-alt="Data Science Schematic" />
-<figcaption aria-hidden="true">Data Science Schematic</figcaption>
+alt="(Wickham et al., 2023)" />
+<figcaption aria-hidden="true">(Wickham et al., 2023)</figcaption>
 </figure>
+
+We’ll be focusing on importing, tidying, and transforming data in this
+class. Consider taking DATA 3001 (Data Visualization and Communication)
+with Dr. Riley to complete the cycle.
 
 ## Tools: Git & RStudio
 
