@@ -26,10 +26,18 @@ At the end of the course, students are expected to be able to:
 ## Research Data
 
 <figure>
-<img src="../Graphics/ResearchLifecycle_CondonBresnahanOpuda_2022.jpg"
+<img src="../images/research_process_condon_2022.jpg"
 alt="Scholarly Research and Data Management Cycle" />
 <figcaption aria-hidden="true">Scholarly Research and Data Management
 Cycle</figcaption>
+</figure>
+
+## Data Science
+
+<figure>
+<img src="../images/data_science_schematic_wickham.png"
+alt="Data Science Schematic" />
+<figcaption aria-hidden="true">Data Science Schematic</figcaption>
 </figure>
 
 ## Tools: Git & RStudio
@@ -43,13 +51,31 @@ Cycle</figcaption>
   demonstrated using these tools (importance of file naming, file
   structures, documentation, version control)
 
+## Practice and Learning
+
 ## CEWIL Project
 
-## Practice and Learning
+- CEWIL = Co-operative Education and Work-Integrated Learning
+- We will be working on a data project to support Open Access
+  publications
+- We will acquire the data through webscraping and transform it to meet
+  the requirements of the Open Journal Systems’ import plugin
+- We will use both R and Artificial Intelligence text analysis
+  approaches
+- You will have access to ChatGPT Team (data analysis, file uploads, web
+  browsing) supported through the CEWIL grant
+- You will receive a stipend
 
 ## Ungrading
 
 ## To Do List
 
-- Fill out the student information survey today so that I can set up
-  your access to GitHub
+- Now: fill out the student information survey in Moodle
+- Read the syllabus
+- Reading: Bryan, J. (2018). Excuse Me, Do You Have a Moment to Talk
+  About Version Control? *The American Statistician*, *72*(1), 20–27.
+  <https://doi.org/10.1080/00031305.2017.1399928>
+- Pro tip: if you’re reading articles off campus, check out the [MTA
+  Libraries Off-Campus
+  Bookmarklet](https://libraryguides.mta.ca/research_help/research_tips/how_do_i)
+  to get access to electronic resources.
