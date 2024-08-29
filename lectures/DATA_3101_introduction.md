@@ -87,17 +87,33 @@ alt="Carpentries, 2024" />
 
 Q: Have you had any experiences with ungrading?
 
-## To Do List
+## To Do List - In Class
 
-- Now: fill out the student information survey in Moodle
+1.  Register a GitHub account
+
+A few username tips: - Include part of your name - this makes it easier
+for people to know who you are and trust you! - Don’t highlight your
+current university or employer (for me, this would have led to problems:
+estregger-mcmaster, estregger-umanitoba, estregger-rrc, estregger-usask,
+estregger-uwo, estregger-mta ??? UGH) - Use all lowercase letters
+
+2.  Complete the Student Information Survey in Moodle
+
+I will need your GitHub username to set up your private repository for
+the class. Information about your major, coding background, and learning
+goals will help me choose examples.
+
+## To Do List - This Week
+
 - Read the syllabus
 - Reading: Bryan, J. (2018). Excuse Me, Do You Have a Moment to Talk
   About Version Control? *The American Statistician*, *72*(1), 20–27.
   <https://doi.org/10.1080/00031305.2017.1399928>
-- Pro tip: if you’re reading articles off campus, check out the [MTA
-  Libraries Off-Campus
-  Bookmarklet](https://libraryguides.mta.ca/research_help/research_tips/how_do_i)
-  to get access to electronic resources.
+
+Pro tip: if you’re reading articles off campus, check out the [MTA
+Libraries Off-Campus
+Bookmarklet](https://libraryguides.mta.ca/research_help/research_tips/how_do_i)
+to get access to electronic resources.
 
 ## References
 
