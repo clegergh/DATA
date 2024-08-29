@@ -41,7 +41,7 @@ alt="(Wickham et al., 2023)" />
 
 We’ll be focusing on importing, tidying, and transforming data in this
 class. Consider taking DATA 3001 (Data Visualization and Communication)
-with Dr. Riley to complete the cycle.
+with Dr. Riley to complete the process.
 
 ## Tools: Git & RStudio
 
@@ -55,6 +55,15 @@ with Dr. Riley to complete the cycle.
   structures, documentation, version control)
 
 ## Practice and Learning
+
+- Approximately half of our class time will be participatory live coding
+  and problem solving.
+
+<figure>
+<img src="../images/skill_acquisition_carpentries.png"
+alt="Carpentries, 2024" />
+<figcaption aria-hidden="true">Carpentries, 2024</figcaption>
+</figure>
 
 ## CEWIL Project
 
@@ -71,6 +80,13 @@ with Dr. Riley to complete the cycle.
 
 ## Ungrading
 
+- My focus is on learning and interaction
+- Submit - get feedback - improve & resubmit
+- Tracking engagement, contributions, and progress
+- Self-evaluation
+
+Q: Have you had any experiences with ungrading?
+
 ## To Do List
 
 - Now: fill out the student information survey in Moodle
@@ -82,3 +98,16 @@ with Dr. Riley to complete the cycle.
   Libraries Off-Campus
   Bookmarklet](https://libraryguides.mta.ca/research_help/research_tips/how_do_i)
   to get access to electronic resources.
+
+## References
+
+Condon, P., Bresnahan, M., & Opuda, E. (2022, January 1). Visual
+Representation of the Research Process, a Lifecycle Model.
+<https://scholars.unh.edu/faculty_pubs/1454>
+
+The Carpentries. (2024). Building skill with practice. The Carpentries
+Instructor Training.
+<https://carpentries.github.io/instructor-training/02-practice-learning.html>
+
+Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). Introduction.
+In R for Data Science (2nd ed.). <https://r4ds.hadley.nz/intro>

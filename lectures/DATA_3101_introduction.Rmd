@@ -30,7 +30,7 @@ At the end of the course, students are expected to be able to:
 
 ![(Wickham et al., 2023)](../images/data_science_schematic_wickham.png)
 
-We'll be focusing on importing, tidying, and transforming data in this class. Consider taking DATA 3001 (Data Visualization and Communication) with Dr. Riley to complete the cycle.
+We'll be focusing on importing, tidying, and transforming data in this class. Consider taking DATA 3001 (Data Visualization and Communication) with Dr. Riley to complete the process.
 
 ## Tools: Git & RStudio
 
@@ -41,21 +41,39 @@ We'll be focusing on importing, tidying, and transforming data in this class. Co
 
 ## Practice and Learning
 
+-   Approximately half of our class time will be participatory live coding and problem solving.
+
+![Carpentries, 2024](../images/skill_acquisition_carpentries.png)
+
 ## CEWIL Project
 
-- CEWIL = Co-operative Education and Work-Integrated Learning
-- We will be working on a data project to support Open Access publications
-- We will acquire the data through webscraping and transform it to meet the requirements of the Open Journal Systems' import plugin
-- We will use both R and Artificial Intelligence text analysis approaches
-- You will have access to ChatGPT Team (data analysis, file uploads, web browsing) supported through the CEWIL grant
-- You will receive a stipend
+-   CEWIL = Co-operative Education and Work-Integrated Learning
+-   We will be working on a data project to support Open Access publications
+-   We will acquire the data through webscraping and transform it to meet the requirements of the Open Journal Systems' import plugin
+-   We will use both R and Artificial Intelligence text analysis approaches
+-   You will have access to ChatGPT Team (data analysis, file uploads, web browsing) supported through the CEWIL grant
+-   You will receive a stipend
 
 ## Ungrading
 
+- My focus is on learning and interaction
+- Submit - get feedback - improve & resubmit
+- Tracking engagement, contributions, and progress
+- Self-evaluation
+
+Q: Have you had any experiences with ungrading?
+
 ## To Do List
 
-- Now: fill out the student information survey in Moodle
-- Read the syllabus
-- Reading: Bryan, J. (2018). Excuse Me, Do You Have a Moment to Talk About Version Control? *The American Statistician*, *72*(1), 20–27.
-<https://doi.org/10.1080/00031305.2017.1399928>
-- Pro tip: if you're reading articles off campus, check out the [MTA Libraries Off-Campus Bookmarklet](https://libraryguides.mta.ca/research_help/research_tips/how_do_i) to get access to electronic resources.
+-   Now: fill out the student information survey in Moodle
+-   Read the syllabus
+-   Reading: Bryan, J. (2018). Excuse Me, Do You Have a Moment to Talk About Version Control? *The American Statistician*, *72*(1), 20–27. <https://doi.org/10.1080/00031305.2017.1399928>
+-   Pro tip: if you're reading articles off campus, check out the [MTA Libraries Off-Campus Bookmarklet](https://libraryguides.mta.ca/research_help/research_tips/how_do_i) to get access to electronic resources.
+
+## References
+
+Condon, P., Bresnahan, M., & Opuda, E. (2022, January 1). Visual Representation of the Research Process, a Lifecycle Model. https://scholars.unh.edu/faculty_pubs/1454
+
+The Carpentries. (2024). Building skill with practice. The Carpentries Instructor Training. https://carpentries.github.io/instructor-training/02-practice-learning.html
+
+Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). Introduction. In R for Data Science (2nd ed.). https://r4ds.hadley.nz/intro
