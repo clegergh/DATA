@@ -17,6 +17,8 @@ Email: [estregger\@mta.ca](mailto:estregger@mta.ca){.email}\
 Office: Library M13\
 Office hours / help: by appointment\
 Request an appointment:
+[https://outlook.office365.com/owa/calendar/LibraryAppointments\@mta.ca/bookings/s/Lm8pmHeFAkCS_M_0xKAYEQ2](https://outlook.office365.com/owa/calendar/LibraryAppointments@mta.ca/bookings/s/Lm8pmHeFAkCS_M_0xKAYEQ2){.uri}
+
 TA: Sabrina Sandy
 
 ## Course description:
@@ -60,7 +62,7 @@ At the end of the course, students are expected to be able to:
 -   Explore data to identify potential research questions or problems in
     the dataset\
 
--  Identify best practices for research data management, including data
+-   Identify best practices for research data management, including data
     organization, storage, security, sharing, and ethical re-use
 
 -   Demonstrate what they have learned about data acquisition, data
@@ -187,7 +189,8 @@ Basics. In *R for Data Science* (2nd ed.).
 
 #### Reading / Talk:
 
--   Guest lecture (outside of class time) - CEWIL
+-   Guest lecture by John Aspler on Persistent Identifiers (outside of
+    class time: to be announced)
 
 #### Assignment 6:
 
@@ -201,7 +204,8 @@ Basics. In *R for Data Science* (2nd ed.).
 
 #### Reading / Talk:
 
--   CEWIL / Open Access Week guest lecture (outside of class time)
+-   Open Access Week guest lecture by Vincent Larivière on Open Science
+    (outside of class time, to be announced)
 -   Fortin, É. (2023). A glimpse into the fascinating world of file
     formats and metadata. In K. Thompson, E. Hill, E.
     Carlisle-Johnston, D. Dennie, & É. Fortin (Eds.), *Research Data
