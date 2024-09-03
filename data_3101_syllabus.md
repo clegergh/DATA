@@ -13,6 +13,7 @@ Office: Library M13
 Office hours / help: by appointment  
 Request an appointment:
 <https://outlook.office365.com/owa/calendar/LibraryAppointments@mta.ca/bookings/s/ChG4CXCnlUqxkSWnL40pJA2>
+TA: Sabrina Sandy
 
 ## Course description:
 
@@ -53,8 +54,9 @@ At the end of the course, students are expected to be able to:
 - Import and tidy diverse data sources across platforms
 
 - Explore data to identify potential research questions or problems in
-  the dataset  
-  Identify best practices for research data management, including data
+  the dataset 
+
+- Identify best practices for research data management, including data
   organization, storage, security, sharing, and ethical re-use
 
 - Demonstrate what they have learned about data acquisition, data
