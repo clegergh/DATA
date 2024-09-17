@@ -132,11 +132,11 @@ filter() changes which rows are present without changing their order
 
 # use filter with pipe
 
-# create a new data frame called flights_delay_360
+# create a new data frame called flights_delay_180
 
 ```
 
-The new flights_delay_360 now appears in your Environment pane. You can use this new data frame later.
+The new flights_delay_180 now appears in your Environment pane. You can use this new data frame later.
 
 In this first example, we used \> greater than. Other conditions include:
 

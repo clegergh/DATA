@@ -141,10 +141,10 @@ hours?**
 
 # use filter with pipe
 
-# create a new data frame called flights_delay_360
+# create a new data frame called flights_delay_180
 ```
 
-The new flights_delay_360 now appears in your Environment pane. You can
+The new flights_delay_180 now appears in your Environment pane. You can
 use this new data frame later.
 
 In this first example, we used \> greater than. Other conditions
