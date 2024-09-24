@@ -1,0 +1,262 @@
+---
+title: "dplyr part 2"
+author: "Elizabeth Stregger"
+date: "2024-09-23"
+output: github_document
+---
+
+# Data transformation with dplyr: Part 2
+
+The dplyr package includes functions that you can use to transform a data frame:
+
+-   Last week, we covered functions that operate on rows:
+
+    -   filter() changes which rows are present without changing their order
+
+    -   arrange() changes the order of rows without changing which rows are present
+
+    -   distinct() finds rows with unique values
+
+-   Today, we'll cover functions that operate on columns:
+
+    -   mutate() creates new columns based on existing columns
+
+    -   select() changes which columns are present
+
+    -   rename() changes the names of columns
+
+    -   relocate() changes the positions of columns
+
+-   Once you understand these functions, we can combine them using the pipe operator.
+
+-   We'll also use functions that work with groups:
+
+    -   group_by()
+
+    -   summarize()
+
+    -   slice()
+
+    -   ungroup()
+
+# Useful keyboard shortcuts:
+
+*Cmd/Ctrl+Shift+Enter* runs code chunk (make sure your cursor is in the code chunk to make it active)
+
+*Cmd/Ctrl+Enter* runs current line of code
+
+*Cmd/Ctrl+Shift+M* pipe operator (%\>%)
+
+*Option+-* (Mac) assignment operator (\<-)
+
+*Alt+-* (Windows) assignment operator (\<-)
+
+# Updating the pipe
+
+If your pipe operator looks like %\>%:
+
+Go to Tools, then Global Options, then Code.
+
+Select "Use native pipe operator, \|\>"
+
+# Data set and packages:
+
+We'll be using a dataset of flights departing from New York City in 2013. This data is available in a package called nycflights13.
+
+This lecture is based on [Chapter 3](https://r4ds.hadley.nz/data-transform) of R for Data Science.
+
+The Tidyverse package includes these core packages:
+
+-   ggplot2 (data visualization)
+
+-   dplyr (data manipulation)
+
+-   tidyr (data tidying)
+
+-   readr (data import)
+
+-   purrr (functional programming)
+
+-   tibble (re-imagined data frames)
+
+-   stringr (working with strings)
+
+-   forcats (working with factors)
+
+That confirms that we don't need to load both tidyverse and dplyr.
+
+```{r load libraries}
+
+```
+
+# dplyr
+
+## Mutate()
+
+Mutate adds new columns calculated from the existing columns. We'll start with some basic calculations.
+
+**Question: How much time did the flight make up in the air? (Create a new column called gain.)**
+
+```{r mutate gain}
+
+```
+
+You can add more than one column using mutate. You can also control where the columns are created using .before and .after (or relocate, which we'll cover today). You can also use the argument .keep = "used" to only keep the columns used in the calculation or created by mutate.
+
+**Question/Task: Create a new tibble called flights_delay_gain. Add columns for gain, speed in hours, and gain per hour. Only keep the columns used or created in this task.**
+
+```{r create tibble for delay gain}
+
+```
+
+## Select()
+
+Select allows you to choose a subset of the columns in a large dataset. You can do this by name, by range, by data type, or use helper functions with regular expressions.
+
+**Question: Which columns would we need to select if we were only interested in the date? Or all the columns except the date?**
+
+```{r select date, two ways}
+
+```
+
+Let's take a look at the select() function using ?select.
+
+**Question: What if you only care about the date and the departure data?**
+
+```{r select date and departure data}
+
+
+```
+
+You can also rename variables from within the select() function by using =. The new name appears on the left-hand side and the old name appears on the right.
+
+**Check-in question: Which column name does not meet the snake_case convention where each word or concept is separated by an underscore?**
+
+**Task: Select only the character data and rename a column to use snake_case.**
+
+```{r select character data}
+
+```
+
+## Rename()
+
+This leads directly to rename(), which is specifically designed to rename columns.
+
+Task: Use rename instead of select to rename the column we renamed above!
+
+```{r rename}
+
+```
+
+## Relocate()
+
+You can use relocate to change the order of the columns (for example: important variables to the front). By default, it moves variables to the front.
+
+You can also use .before and .after to move them.
+
+**Task: Relocate time_hour from the end of the tibble to the beginning.**
+
+```{r relocate}
+
+```
+
+**Task: You care more about arrivals than departures. Move the arrivals data in front of dep_time.**
+
+```{r focus on arrivals}
+
+```
+
+**R4DS Q6: Rename air_time to air_time_min to indicate units of measurement and move it to the beginning of the data frame.**
+
+```{r R4DS Q6}
+
+
+```
+
+## The pipe
+
+We've covered examples of data transformation on rows using filter(), arrange(), and distinct() as well as examples of data transformations on columns using mutate(), select(), rename(), and relocate(). Often you'll need to combine these functions (or "verbs") to answer a question.
+
+**Example: Imagine you want to find the fastest flights from New York to Des Moines, Iowa.**
+
+**Question: What are the rows or columns we need to solve this problem? What verbs do we need to use?**
+
+```{r fastest flights to Des Moines}
+
+```
+
+Let's consider what this would like with the pipe. Convert to nesting:
+
+```{r nesting}
+
+```
+
+Or create lots of intermediate objects:
+
+```{r intermediate objects}
+
+```
+
+## Groups: Group_by()
+
+You can group data by values. This works for categorical data, like months or destination.
+
+**Question: How many different destinations are in the dataset? Group them for further analysis.**
+
+```{r group by destination}
+
+```
+
+Anything following this verb will operate on each group (or class).
+
+## Groups: summarize()
+
+Summarize() lets you calculate a summary statistic (for example, the mean) for each group.
+
+**Question: Calculate the average delay for each destination and name the new column avg_delay.**
+
+```{r summarize avg_delay by destination}
+
+```
+
+Some of the flights had missing data in the delay column, so calculating the mean gave us an NA result.
+
+Dropping NA values in R is usually done using the argument na.rm = TRUE. Let's go fix that above.
+
+One of the most useful summaries is n(), which returns the number of rows in each group.
+
+**Question: How many flights are included in each group above? Sort them in descending order.**
+
+```{r summarize average delay by destination, add n}
+
+```
+
+## Groups: Slice
+
+The slice function allows you to extract specific rows in each group:
+
+-   slice_head(n = ): first row/rows of each group
+
+-   slice_tail(n = ): last row/rows of each group
+
+-   slice_min(x, n = ): row/rows with smallest value of column x
+
+-   slice_max(x, n = ): row/rows with largest value of column x
+
+-   slice_sample(n = ): random row/rows
+
+**Question: What was the longest arrival delay for each month? Create a new tibble called flights_max_delay_month**
+
+```{r flights_max_delay_month}
+
+```
+
+**Groups: Ungroup()**
+
+You will often want to ungroup your data after a calculation.
+
+**Question: Group by month, add an avg_monthly_delay calculation, and ungroup**
+
+```{r ungroup}
+
+```
