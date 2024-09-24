@@ -16,9 +16,8 @@ Assignment 4
 
 #### Part 1: Update your live coding and submit to GitHub
 
-At the beginning of class on Sep. 24, open your dplyr file from last
-class. Continue live coding in the same file WITH THE SAME FILENAME. At
-the end of class, save it without changing the file name, commit it, and
+At the beginning of class on Sep. 24, open a new R script file. At the
+end of class, save it without changing the file name, commit it, and
 push it to your GitHub repository.
 
 #### Part 2: Install styler and apply it to your dplyr file
