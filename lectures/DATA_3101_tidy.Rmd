@@ -75,7 +75,7 @@ This is like the test number data in the Costanzo (2023) example or the hour dat
 
 pivot_longer() has 3 key arguments:
 
--   cols: which columns need to be pivoted, i.e. which ones won't change. This argument uses the same syntax as select()
+-   cols: which columns need to be pivoted, i.e. which ones will change. This argument uses the same syntax as select()
 
 -   names_to: gives a new name to the variable stored in the column names
 
@@ -154,3 +154,67 @@ In this example we see two variables (date of birth and name) as well as the val
 ```{r pivot variable names and values}
 
 ```
+
+### pivot_wider()
+
+Pivot wider creates columns and reduces rows - the opposite of pivot_longer(). The use case for pivot_wider() in the world of tidy data is to fix the problem of one observation being spread across multiple rows.
+
+```{r examine patient experience data}
+
+```
+
+In this case, we're looking at survey results. Instead of seeing the full survey response from one organization in each row, the survey response is spread across six rows.
+
+```{r use distinct to see the survey measures & titles}
+
+```
+
+Neither of these are great in terms of variable names. One carries no descriptive meaning and the other is a long text string including spaces. Think about what these would look like in a plot legend! We'll come back to this. Remember that Costanzo (2023) suggested that we structure the data before we clean it.
+
+The structure of pivot_wider is the opposite of pivot_longer:
+
+-   we provide the existing columns that define the values (values_from)
+
+-   where the column names are coming from
+
+-   which columns have values that identify the row
+
+```{r pivot_wider}
+
+```
+
+Now we can work through some of the data cleaning and validation steps suggested by Costanzo (2023). In this case we can change the column names to something meaningful and check that the data types are correct.
+
+This is also where we'd want to create a data dictionary for a study in a README.txt file, in terms of Research Data Management.
+
+Let's take a look at the survey to better understand the variables: [CAHPS for MIPS Survey](https://www.cms.gov/data-research/research/consumer-assessment-healthcare-providers-systems/cahps-mips)
+
+We could leave the column title as CAHPS_GRP_1, as the R4DS book does, or we could give it a somewhat meaningful name, like timeliness.
+
+The entry in the data dictionary could look like:
+
+CAHPS_GRP_1 = CAHPS for MIPS SSM: Getting Timely Care, Appointments, and Information, measured as a rate
+
+or
+
+timeliness = CAHPS_GRP_1 = CAHPS for MIPS SSM: Getting Timely Care, Appointments, and Information, measured as a rate
+
+Which would you use in a healthcare network where everyone new the codes and acronyms? What about at an international conference where people aren't familiar with this aspect of American health care?
+
+```{r}
+
+```
+
+#### Data types in R
+
+-   character: text
+
+-   numeric or double: can include decimal points
+
+-   logical: True and False
+
+-   integer: for integers
+
+-   complex: complex numbers with imaginary parts
+
+-   raw: bitstreams

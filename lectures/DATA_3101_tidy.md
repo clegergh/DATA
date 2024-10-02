@@ -1,5 +1,10 @@
-Data Tidying
-================
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# Data Tidying
 
 # Tidy data Pt. 1
 
@@ -7,9 +12,9 @@ Data Tidying
 
 The content for this week is based on:
 
-- Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023a). Data
-  tidying. In *R for Data Science* (2nd ed.).
-  <https://r4ds.hadley.nz/data-tidy>
+-   Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023a). Data
+    tidying. In *R for Data Science* (2nd ed.).
+    <https://r4ds.hadley.nz/data-tidy>
 
 The same data can be organized in different ways. Often the way a
 researcher, a research tool, or an instrument gathers the data will not
@@ -23,10 +28,10 @@ In R, a dataset is tidy when:
 
 Why these rules?
 
-- general advantage to having a consistent data structure
+-   general advantage to having a consistent data structure
 
-- placing variables in columns is particularly well suited to R
-  functions, which work with columns as vectors.
+-   placing variables in columns is particularly well suited to R
+    functions, which work with columns as vectors.
 
 To get the data into tidy form, you need to figure out the underlying
 variables and observations. Sometimes you might need to ask the people
@@ -53,7 +58,7 @@ Parker, Katya; El, Nir; Buldo, Elena; MacCormack, Tyson, 2023,
 silver nanoparticle toxicity in fish: Intravascular exposure disrupts
 cardiac pacemaker function and inhibits Na+/K+-ATPase activity in heart,
 but not gill”, <https://doi.org/10.5683/SP3/FCDBBT>, Borealis, V1;
-Figure 3A.tab \[fileName\], UNF:6:6Qrmtes/AAEkr3TwN3PVeA== \[fileUNF\]
+Figure 3A.tab $$fileName$$, UNF:6:6Qrmtes/AAEkr3TwN3PVeA== $$fileUNF$$
 
 This is the data associated with the following paper:
 
@@ -66,11 +71,13 @@ and Physiology Part C: Toxicology & Pharmacology*, *277*, 109837.
 
 The README.txt file gives us a bit more context:
 
-    File “Figure 3A” contains heart rate data for control brook trout and brook trout injected with 700 µg/kg nAgPVP
-    -   Column C contains heart rate data for brook trout prior to a sham injection (control) or an injection with 700 µg/kg nAgPVP (nAgPVP)
-    -   Column D contains heart rate data for brook trout 5 hours following a sham injection (control) or an injection with 700 µg/kg nAgPVP (nAgPVP)
-    -   Column E contains heart rate data for brook trout 10 hours following a sham injection (control) or an injection with 700 µg/kg nAgPVP (nAgPVP)
-    -   Column F contains heart rate data for brook trout 24 hours following a sham injection (control) or an injection with 700 µg/kg nAgPVP (nAgPVP)
+```         
+File “Figure 3A” contains heart rate data for control brook trout and brook trout injected with 700 µg/kg nAgPVP
+-   Column C contains heart rate data for brook trout prior to a sham injection (control) or an injection with 700 µg/kg nAgPVP (nAgPVP)
+-   Column D contains heart rate data for brook trout 5 hours following a sham injection (control) or an injection with 700 µg/kg nAgPVP (nAgPVP)
+-   Column E contains heart rate data for brook trout 10 hours following a sham injection (control) or an injection with 700 µg/kg nAgPVP (nAgPVP)
+-   Column F contains heart rate data for brook trout 24 hours following a sham injection (control) or an injection with 700 µg/kg nAgPVP (nAgPVP)
+```
 
 #### **Tidy data: In-class task:**
 
@@ -87,16 +94,18 @@ called **billboard.**
 library(tidyverse)
 ```
 
-    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-    ## ✔ dplyr     1.1.4     ✔ readr     2.1.5
-    ## ✔ forcats   1.0.0     ✔ stringr   1.5.1
-    ## ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-    ## ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
-    ## ✔ purrr     1.0.2     
-    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-    ## ✖ dplyr::filter() masks stats::filter()
-    ## ✖ dplyr::lag()    masks stats::lag()
-    ## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+```         
+## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+## ✔ dplyr     1.1.4     ✔ readr     2.1.5
+## ✔ forcats   1.0.0     ✔ stringr   1.5.1
+## ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+## ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+## ✔ purrr     1.0.2     
+## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
+## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+```
 
 ``` r
 ?billboard
@@ -114,12 +123,14 @@ hour data in the Parker (2023) dataset.
 
 pivot_longer() has 3 key arguments:
 
-- cols: which columns need to be pivoted, i.e. which ones won’t change.
-  This argument uses the same syntax as select()
+-   cols: which columns need to be pivoted, i.e. which ones will change.
+    This argument uses the same syntax as select()
 
-- names_to: gives a new name to the variable stored in the column names
+-   names_to: gives a new name to the variable stored in the column
+    names
 
-- values_to: gives a new name to the variable stored in the cell values
+-   values_to: gives a new name to the variable stored in the cell
+    values
 
 Now we have a much longer data frame. In either format, there were a lot
 of NA values for songs that were in the top 100 for less than 76 weeks.
@@ -171,14 +182,14 @@ view(who2)
 All columns except country and year have three pieces of data encoded in
 the column header, separated by underscores:
 
-- method of diagnosis (rel = relapse, sn = negative pulmonary smear, sp
-  = positive pulmonary smear, ep = extrapulmonary)
+-   method of diagnosis (rel = relapse, sn = negative pulmonary smear,
+    sp = positive pulmonary smear, ep = extrapulmonary)
 
-- sex (f = female, m = male)
+-   sex (f = female, m = male)
 
-- age group (`014` = 0-14 yrs of age, `1524` = 15-24, `2534` = 25-34,
-  `3544` = 35-44 years of age, `4554` = 45-54, `5564` = 55-64, `65` = 65
-  years or older).
+-   age group (`014` = 0-14 yrs of age, `1524` = 15-24, `2534` = 25-34,
+    `3544` = 35-44 years of age, `4554` = 45-54, `5564` = 55-64, `65` =
+    65 years or older).
 
 To make this data long, we’d be formatting it into 6 columns: country,
 year, diagnosis, sex, age group, and count.
@@ -195,3 +206,5 @@ view(household)
 
 In this example we see two variables (date of birth and name) as well as
 the values of another variable (child).
+
+### pivot_wider()
