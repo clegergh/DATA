@@ -189,8 +189,7 @@ Basics. In *R for Data Science* (2nd ed.).
 
 #### Reading / Talk:
 
--   Guest lecture by John Aspler on Persistent Identifiers (outside of
-    class time: to be announced)
+-   Guest lecture by John Aspler on Persistent Identifiers: Tuesday Oct. 8, from 6-7 PM in Avard Dixon 118
 
 #### Assignment 6:
 
