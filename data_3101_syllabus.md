@@ -189,11 +189,24 @@ Basics. In *R for Data Science* (2nd ed.).
 
 #### Reading / Talk:
 
--   Guest lecture by John Aspler on Persistent Identifiers: Tuesday Oct. 8, from 6-7 PM in Avard Dixon 118
+-   Guest lecture by John Aspler on Persistent Identifiers: Tuesday Oct.
+    8, from 6-7 PM in Avard Dixon 118
+
+    [Recording](https://mountallison-my.sharepoint.com/:v:/g/personal/sgeier_mta_ca/ESsKDXlD5BBAp9sa5qtOtpwBnwefo_eJUEiakDGGe7C7Xw?e=rf4sNe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### ~~Assignment 6:~~
+
+-   ~~Deposit code from Data Acquisition in R (due Oct. 10)~~
+
+## October 15 & 17
+
+#### Topics:
+
+-   Data Acquisition in R (import, webscraping, databases)
 
 #### Assignment 6:
 
--   Deposit code from Data Acquisition in R (due Oct. 10)
+-   Deposit code from Data Acquisition in R (due Oct. 17)
 
 ## Week 7 (Oct. 22 & 24)
 
