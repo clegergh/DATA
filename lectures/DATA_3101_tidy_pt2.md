@@ -1,0 +1,167 @@
+Data Tidying pt 2
+================
+
+# Tidy Data Pt. 2 & Joins
+
+This lecture is based on [Chapter 5 in
+R4DS](https://r4ds.hadley.nz/data-tidy) and [Chapter 19 in
+R4DS.](https://r4ds.hadley.nz/joins)
+
+The last class on Tidying Data covered pivot_longer, which is what
+you’re usually going to do to get data into tidy data format. Today
+we’ll cover the opposite case, pivot_wider.
+
+We’ll spend most of the class talking about joins - different ways of
+combining multiple tibbles. This is really helpful conceptually for your
+requested topic next week: working with databases in R.
+
+### pivot_wider()
+
+Pivot wider creates columns and reduces rows - the opposite of
+pivot_longer(). The use case for pivot_wider() in the world of tidy data
+is to fix the problem of one observation being spread across multiple
+rows. 
+
+In this case, we’re looking at survey summary data. Instead of seeing
+the full data for one organization in each row, the data is spread
+across six rows. An analogy would be if every survey question for a
+respondent was in a separate row.
+
+We can use the distinct() function (covered in DATA_3101_dplyr_pt1) to
+see the survey measures and related titles.
+
+Neither of these are great in terms of variable names. One carries no
+descriptive meaning and the other is a long text string including
+spaces. Think about what these would look like in a plot legend! We’ll
+come back to this. Remember that Costanzo (2023) suggested that we
+structure the data before we clean it.
+
+The structure of pivot_wider is the opposite of pivot_longer:
+
+- we provide the existing columns that define the values (values_from) 
+- where the column names are coming from (names_from)
+- which columns have values that identify the row (id_cols)
+
+Now we can work through some of the data cleaning and validation steps
+suggested by Costanzo (2023). In this case we can change the column
+names to something meaningful and check that the data types are correct.
+
+This is also where we’d want to create a data dictionary for a study in
+a README.txt file, in terms of Research Data Management.
+
+Let’s take a look at the survey to better understand the variables:
+[CAHPS for MIPS
+Survey](https://www.cms.gov/data-research/research/consumer-assessment-healthcare-providers-systems/cahps-mips)
+
+We could leave the column title as CAHPS_GRP_1, as the R4DS book does,
+or we could give it a somewhat meaningful name, like timeliness.
+
+The entry in the data dictionary could look like:
+
+CAHPS_GRP_1 = CAHPS for MIPS SSM: Getting Timely Care, Appointments, and
+Information, measured as a rate
+
+or
+
+timeliness = CAHPS_GRP_1: CAHPS for MIPS SSM: Getting Timely Care,
+Appointments, and Information, measured as a rate
+
+Which would you use in a healthcare network where everyone new the codes
+and acronyms? What about at an international conference where people
+aren’t familiar with this aspect of American health care?
+
+## Joins
+
+A dataset can include multiple tables. Sometimes in your analysis you
+might need to combine the tables.
+
+There are two types of joins:
+
+- mutating joins: use to add new variables to one data frame from
+  matching observations in another. Remember, mutate() adds new columns
+  to a data frame.
+
+- filtering joins: filter the observations in one data frame based on
+  whether or not they match an observation in another. Remember,
+  filter() changes which rows are present.
+
+Either way, you need to define the key, the variables that are used to
+connect the data frames. In the lecture by John Aspler on Tuesday, he
+talked about persistent identifiers like ORCID iDs and DOIs. These
+identifiers are excellent keys in all the joins that need to happen in
+the scholarly information infrastructure.
+
+Today we’ll go back to some of the tables in the nycflights13 package.
+
+#### Key definitions:
+
+- Primary key: variable or set of variables that uniquely identify each
+  observation. It is called a compound key if more than one variable is
+  needed.
+
+- Foreign key: variable or set of variables that correspond to the
+  primary key in another table.
+
+Ideally the primary key and the foreign key have the same names! Let’s
+look at a [figure from
+R4DS](https://r4ds.hadley.nz/joins#fig-flights-relationships) showing
+the relationships between the nycflights13 data frames.
+
+#### Check that keys are unique:
+
+To verify that the primary keys are unique, you use count and filter to
+find out if there any duplicates. You can also check for missing values.
+
+Note: You’d want to do this for airports (primary key: faa), weather
+(compound key: time_hour, origin), and airlines (primary key: carrier)
+as well.
+
+#### dplyr joins:
+
+Mutating joins:
+
+- left_join(): keeps all rows in x
+
+- inner_join(): only keeps rows that occur in both x and y
+
+- right_join(): keeps all rows in y
+
+- full_join(): keeps all rows in both x and y
+
+Filtering joins:
+
+- semi_join(): keeps all rows in x that have a match in y
+
+- anti_join(): keeps all rows in x that do not have a match in y
+
+#### left_join()
+
+left_join() is a mutating join. The main use case of left_join() is to
+add more metadata to the existing table. By default, left_join() uses
+all variables that are in both data frames as the join key.
+
+**Task:**
+
+**Add the full airline name to the flights dataframe**
+
+Sometimes you will still need to specify the key, because you might have
+column names that mean different things in the different dataframes. For
+example, flights\$year is the year of the flight and planes\$year is the
+year the plane was built.
+
+#### Semi_join()
+
+Semi_join() is a filtering join that keeps all rows in x that have a
+match in y.
+
+**Task:**
+
+**Filter the airports dataset to show just the origin airports in
+flights.**
+
+#### **Anti-joins()**
+
+Anti-joins return all rows in x that don’t have a match in y. You can
+use anti-joins to find implicit missing values.
+
+Find which tailnums in flights are missing in planes
