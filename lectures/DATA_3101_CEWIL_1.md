@@ -55,7 +55,8 @@ Systems:
   the [Quick Submit Plugin](https://docs.pkp.sfu.ca/quicksubmit/en/)
 
 - AI-assisted work (CHEM/BIOC 3991 & DATA 3101): Experiment with using
-  GPT Teams to get the output we need
+  [GPT Teams](https://team-gpt.com/ai-use-cases/data-science/) to get
+  the output we need
 
 - Webscraping in R (DATA 3101): Scrape *TAC* website, transform data as
   required, output in XML
