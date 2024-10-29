@@ -147,6 +147,12 @@ transfer of data
 
 [W3 Schools XML Tutorial](https://www.w3schools.com/xml/default.asp)
 
+[Mozilla mdn web docs:
+HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+[Mozilla mdn web docs:
+XML](https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction)
+
 What are some of the similarities and differences?
 
 #### Discussion:
