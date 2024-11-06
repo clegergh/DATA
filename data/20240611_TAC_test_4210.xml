@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-04" status="3" submission_progress="" current_publication_id="104" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <id type="internal" advice="ignore">995</id>
+  <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="1149" created_at="2024-10-28" date_created="" file_id="1149" stage="submission" updated_at="2024-10-28" viewable="true" genre="Article Text" source_submission_file_id="1507" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <name locale="en">42-10.pdf</name>
+    <file id="1149" filesize="413706" extension="pdf">
+      <href src="http://www.tac.mta.ca/tac/volumes/42/10/42-10.pdf"></href>
+    </file>
+  </submission_file>
+  <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1" status="3" primary_contact_id="1275" url_path="" seq="0" access_status="0" date_published="2024-08-03" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">104</id>
+    <id type="doi" advice="update">10.1234/ysakmh72</id>
+    <title locale="en">Weak vertical composition</title>
+    <abstract locale="en">&lt;p&gt;We study semi-strict tricategories in which the only weakness is in vertical composition.  We construct these as categories enriched in the category of bicategories with strict functors, with respect to the cartesian monoidal structure.  As these are a form of tricategory it follows that doubly-degenerate ones are braided monoidal categories.  We show that this form of semi-strict tricategory is weak enough to produce all braided monoidal categories. That is, given any braided monoidal category B there is a doubly-degenerate "vertically weak" semi-strict tricategory whose associated braided monoidal category is braided monoidal equivalent to B.&lt;/p&gt;&#13;
+&lt;p&gt;2020 MSC: 18D05 (primary), 18C15&lt;/p&gt;</abstract>
+    <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+    <copyrightHolder locale="en">author</copyrightHolder>
+    <copyrightYear>2024</copyrightYear>
+    <keywords locale="en">
+      <keyword>tricategory</keyword>
+      <keyword>braided monoidal category</keyword>
+      <keyword>doubly-degenerate</keyword>
+      <keyword>coherence</keyword>
+      <keyword>semi-strict</keyword>
+      <keyword>higher-dimensional category</keyword>
+    </keywords>
+    <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <author include_in_browse="true" user_group_ref="Author" seq="0" id="0">
+        <givenname locale="en">Eugenia</givenname>
+        <familyname locale="en">Cheng</familyname>
+        <email>madeup@email.org</email>
+      </author>
+      <author include_in_browse="true" user_group_ref="Author" seq="1" id="0">
+        <givenname locale="en">Alexander S.</givenname>
+        <familyname locale="en">Corner</familyname>
+        <email>madeup@email.org</email>
+      </author>
+    </authors>
+    <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">515</id>
+      <name locale="en">PDF</name>
+      <seq>0</seq>
+      <submission_file_ref id="1149"/>
+    </article_galley>
+    <issue_identification>
+      <volume>42</volume>
+      <year>2024</year>
+    </issue_identification>
+    <pages>222-262</pages>
+  </publication>
+</article>
