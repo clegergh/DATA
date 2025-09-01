@@ -1,9 +1,9 @@
-Push to GitHub
+Assignment 1: Push to GitHub
 ================
 Elizabeth Stregger
-2024-08-16
+2024-09-01
 
-## First Push to GitHub
+## Due: September 11, 2025
 
 ### Purpose
 
@@ -11,15 +11,16 @@ Elizabeth Stregger
 
 - contribute to our conversation about version control
 
+- start communicating using GitHub
+
 ### Reminder
 
-We went over this process in class. Instructions in this section are a
-reminder in case you missed a step.
+We went over this process in class. Instructions in this section are a reminder in case you missed a step.
 
 Join the MtADATA3101 GitHub Organization. An email invitation was sent
 to the email address you used to set up your GitHub account. Remember to
 check that email for notifications if you set up GitHub with a non-MtA
-account!
+account.
 
 Create a version control project in RStudio and link it to your personal
 repository in MtADATA3101. Follow the the steps in section
@@ -45,3 +46,7 @@ GitHub](https://happygitwithr.com/new-github-first#push-your-local-changes-to-gi
 [Confirm the local change propagated to the GitHub
 Remote](https://happygitwithr.com/new-github-first#confirm-the-local-change-propagated-to-the-github-remote-2)
 (your personal repository in MtADATA3101)
+
+### Create a GitHub Issue as a notification
+
+[Create a Github Issue in your repository](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue), saying that Assignment 1 is complete. Assign it to estregger for review.
