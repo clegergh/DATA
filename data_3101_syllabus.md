@@ -256,7 +256,6 @@ November 11 - no classes (Remembrance Day)
 
 - Data Acquisition in R (import and webscraping)
 
-
 #### Ungrading Meetings outside of class time
 
 # Course Policies
@@ -277,7 +276,7 @@ Due dates are included in the syllabus so that we can plan our work. Up to 5 gra
 ## Recordings
 
 This class will be held in person. However, if you are feeling unwell, please stay home. Lectures will be recorded for accessibility and made available through
-[Teams](https://teams.microsoft.com/l/channel/19%3AI7TKF3BPoR70ajZFC7ebuO_hIpi9Op1kn0nUEXZhdVA1%40thread.tacv2/General?groupId=be497ae2-363d-4abf-9cc4-c1290d0fd2a9&tenantId=).
+[Teams](https://teams.microsoft.com/l/channel/19%3AYGAXk7kTjbxKMNEnlsNeWs5VY9SNxWd-gTehhIcxhHI1%40thread.tacv2/General?groupId=2b4f9b50-a3c6-4a77-87fa-3b1f5c4ae3b7&tenantId=8c4dd588-ca00-4338-b4ad-10719f15598d).
 
 ## Artificial Intelligence
 
