@@ -88,7 +88,7 @@ Basics. In *R for Data Science* (2nd ed.).
 
 #### **Assignment 1:**
 
--   [First push to GitHub (due Sep. 11)]<https://github.com/MtADATA3101/Course_Documents_2025/blob/main/Assignments/1_first_push_github.md>
+-   [First push to GitHub (due Sep. 11)](https://github.com/MtADATA3101/Course_Documents_2025/blob/main/Assignments/1_first_push_github.md)
 
 ## Week 3 (Sep. 16 & 18)
 
@@ -112,7 +112,7 @@ Western Libraries. <https://doi.org/10.5206/OWNV1575>
 
 #### Assignment 2:
 
--   [DPLYR live-coding & data transformations (due Sep. 19)]<https://github.com/MtADATA3101/Course_Documents_2025/blob/main/Assignments/2_dplyr.md>
+-   [DPLYR live-coding & data transformations (due Sep. 19)](https://github.com/MtADATA3101/Course_Documents_2025/blob/main/Assignments/2_dplyr.md)
 
 ## Week 4 (Sep. 23 & 25)
 
@@ -176,6 +176,8 @@ Western Libraries. <https://doi.org/10.5206/OWNV1575>
 - CEWIL / CRKN: Setting up an ORCID account  
 - CEWIL / CRKN: Working with CRKN's GitHub environment
 
+#### Ungrading meetings outside of class time.
+
 #### Reading:
 TBA
 
@@ -193,7 +195,6 @@ TBA
 #### Topics:
 
 - CEWIL / CRKN in-person session: Walkthrough of Data Visualization tool
-Meet in room ???
 - CEWIL / CRKN: Walkthrough of data visualization tool continued
 
 #### Reading / Talk:
@@ -297,6 +298,17 @@ Elizabeth Stregger uses they and she pronouns. You can address me as Elizabeth (
 
 Please contact me if you have questions about [Mount Allison’s Academic Regulations](https://mta.ca/academic_calendar/24-25/_10.html) in the context of this course, including Academic Calendar Section [10.6 Academic Integrity](https://mta.ca/academic_calendar/24-25/_10.html#_10.6).
 
-Students with permanent or temporary disabilities or medical conditions may be eligible for accommodation through the [Meighen
-Centre.](www.mta.ca/accesibility) Mount Allison University’s [Wellness Centre](www.mta.ca/wellness) offers free, confidential services to students. Services include mental health support and primary healthcare. Several external resources are also advertised through the Wellness Centre, many of which are free or
-eligible for insurance coverage.
+ACCESSIBILITY, HEALTH, AND WELLNESS SUPPORT FOR STUDENTS
+
+While studying at Mount Allison, I encourage you to support your wellbeing in ways that work for you. This may include developing techniques for proactive self-care, talking to friends and family
+members, tending to your physical health by moving your body, eating in ways that make your body feel good, and getting adequate sleep. Reach out to support personnel when needed.
+
+Students with permanent or temporary disabilities or medical conditions may be eligible for accommodation through the Meighen Centre. For more information on registration and support
+available, visit [www.mta.ca/accesibility](www.mta.ca/accessibility).
+Mount Allison University’s Wellness Centre offers free, confidential services to students. Services include mental health support and primary healthcare. Several external resources are also advertised through the Wellness Centre, many of which are free or eligible for insurance coverage. Moreover, there are many wellness-related events and initiatives to get involved with on campus.
+Visit [www.mta.ca/wellness](www.mta.ca/wellness) for more information.
+
+The Garnet Guide for Students
+
+The student Garnet Guide is a comprehensive, holistic guide to navigating mental health and wellness at Mount Allison University. The guide provides information on the resources and services available to you, including counselling, primary healthcare, accessibility support, and sexual violence services. The guide also provides education and knowledge to students surrounding managing their own mental health and well-being, navigating practitioners and insurance, and more.
+[The Garnet Guide for Students](https://surl.li/lahbp)
