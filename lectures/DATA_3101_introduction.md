@@ -1,7 +1,7 @@
 DATA 3101: Data Acquisition and Organization
 ================
 Elizabeth Stregger
-2024-09-06
+2025-09-01
 
 ## Learning objectives
 
@@ -68,15 +68,17 @@ alt="Carpentries, 2024" />
 ## CEWIL Project
 
 - CEWIL = Co-operative Education and Work-Integrated Learning
-- We will be working on a data project to support Open Access
-  publications
-- We will acquire the data through webscraping and transform it to meet
-  the requirements of the Open Journal Systems’ import plugin
-- We will use both R and Artificial Intelligence text analysis
-  approaches
-- You will have access to ChatGPT Team (data analysis, file uploads, web
-  browsing) supported through the CEWIL grant
-- You will receive a stipend
+- We will be working with the Canadian Research Knowledge Network on a project called "Advancing PID Infrastructure through Student-Led Research"
+- Approximately a third of the course will be spent working on a project with this community partner
+- First meeting with CRKN is next week
+- Partner class: CHEM/BIOC 3991 Research and Communication, taught by Dr. Stephen Geier
+
+## CEWIL Benefits
+
+- Working with a community partner to solve real problems
+- Grant covers online course(s) through Udemy to learn additional skills beneficial to the project (and hopefully relevant to your interests and careers)
+- Stipend of approximately $400 by end of course
+- also, I have reduced the number of written assignments required for the course....
 
 ## Ungrading
 
@@ -102,6 +104,8 @@ estregger-uwo, estregger-mta ??? UGH) - Use all lowercase letters
 I will need your GitHub username to set up your private repository for
 the class. Information about your major, coding background, and learning
 goals will help me choose examples.
+
+3.  Review syllabus
 
 ## To Do List - This Week
 

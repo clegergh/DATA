@@ -112,7 +112,7 @@ Western Libraries. <https://doi.org/10.5206/OWNV1575>
 
 #### Assignment 2:
 
--   Deposit code from DPLYR live-coding session (due Sep. 19)
+-   [DPLYR live-coding & data transformations (due Sep. 19)]<https://github.com/MtADATA3101/Course_Documents_2025/blob/main/Assignments/2_dplyr.md>
 
 ## Week 4 (Sep. 23 & 25)
 
@@ -271,7 +271,7 @@ You will be building a portfolio of your work in GitHub. We will meet one-on-one
 
 ## Due dates
 
-Due dates are included in the syllabus so that we can plan our work. You do not need to tell me if your work will be late. However, any work submitted later than 5 days after the due date will not be assessed in time for you to receive feedback and continue to develop your work. It is difficult to meet the course learning objectives if you habitually submit work late.
+Due dates are included in the syllabus so that we can plan our work. Up to 5 grace days are available to each student. Work submitted later than 5 days after the due date will not be assessed, unless this is an approved accommodation. It is difficult to meet the course learning objectives if you habitually submit work late.
 
 ## Recordings
 
@@ -280,7 +280,14 @@ This class will be held in person. However, if you are feeling unwell, please st
 
 ## Artificial Intelligence
 
+This course is designed for in-person experiential learning.
+Research data management best practices are integrated throughout the course material. One of these is the importance of documentation, whether that is documenting code or documenting your learning through version history in GitHub. This class is assessed using ungrading, which means documenting and reflecting on your learning is a core skill.
 
+Using Generative AI is not the most way straightforward way to learn in this class. If you do choose to use tools like Copilot or ChatGPT, you can demonstrate the learning objectives in the class by thoroughly documenting your usage as part of each assignment. Examples are available in the course materials. 
+
+Lack of disclosure of AI usage at the time of submission is a failure to engage with core learning objectives of the course. The maximum course grade available through ungrading will be a C. Each further infraction will further decrease the grades open for discussion.
+
+Please never panic and submit AI-generated work. Deadline extensions, help with your coursework, and alternative formats can be arranged.
 
 ## Names and pronouns
 
