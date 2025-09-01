@@ -30,7 +30,6 @@ Technical aspects will include evolving approaches to script-based web scraping,
 
 Bryan, J. (n.d.) Happy Git and GitHub for the useR.
 <https://happygitwithr.com/index.html>
-<https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/>
 
 Thompson, K., Hill, E., Carlisle-Johnston, E., Dennie, D., &
 Fortin, É. (2023). *Research Data Management in the Canadian Context*.
@@ -89,7 +88,7 @@ Basics. In *R for Data Science* (2nd ed.).
 
 #### **Assignment 1:**
 
--   First push to GitHub (due Sep. 11)
+-   [First push to GitHub (due Sep. 11)]<https://github.com/MtADATA3101/Course_Documents_2025/blob/main/Assignments/1_first_push_github.md>
 
 ## Week 3 (Sep. 16 & 18)
 
