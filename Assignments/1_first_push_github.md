@@ -50,3 +50,7 @@ Remote](https://happygitwithr.com/new-github-first#confirm-the-local-change-prop
 ### Create a GitHub Issue as a notification
 
 [Create a Github Issue in your repository](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue), saying that Assignment 1 is complete. Assign it to estregger for review.
+
+### Reminder about AI usage
+
+If you used AI for this assignment, include a description of how you used it in the text of your GitHub issue. What tool did you use? Why? Was it helpful? Take screenshots showing your prompt(s) and the output(s), or find a way to export and share the chat with Elizabeth. Remember that undocumented AI usage is against the course policies.
